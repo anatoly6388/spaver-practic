@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class EnemyTranslate : MonoBehaviour
+public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
     private Vector3 _direction;
