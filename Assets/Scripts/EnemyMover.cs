@@ -4,15 +4,15 @@ using UnityEngine;
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    private Vector3 _direction;
+    private Target _target;
 
     private void Update()
     {
-        transform.Translate(_direction * _speed * Time.deltaTime);
+        transform.position= Vector3.MoveTowards (transform.position, _target.transform.position,_speed * Time.deltaTime);
     }
 
-    public void SetDirection(Vector3 direction)
+    public void SetDirection(Target target)
     {
-        _direction = direction;
+        _target = target;
     }
 }

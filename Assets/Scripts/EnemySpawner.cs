@@ -3,10 +3,12 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private EnemyMover _cubePrefab;
+    [SerializeField] private EnemyMover[] _prefab;
     [SerializeField] private Transform[] _spawnPoint;
-    [SerializeField] [Range(1,10)] private int _delay;
+    [SerializeField][Range(1, 10)] private int _delay;
+    [SerializeField] Target[] _target;
 
+    //private Target _target;
     private float _timer;
 
     private void Update()
@@ -16,9 +18,9 @@ public class EnemySpawner : MonoBehaviour
         if (_timer >= _delay)
         {
             int Index = Random.Range(0, _spawnPoint.Length);
-            EnemyMover enemyTranslate = Instantiate(_cubePrefab, _spawnPoint[Index].position, Quaternion.identity);
-            Vector3 direction = new Vector3(Random.Range(-1f, 1f), 0, Random.Range(-1f, 1f)).normalized;
-            enemyTranslate.SetDirection(direction);
+
+            EnemyMover enemyTranslate = Instantiate(_prefab[Index], _spawnPoint[Index].position, Quaternion.identity);
+            enemyTranslate.SetDirection(_target[Index]);
             _timer = 0;
         }
     }
