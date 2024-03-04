@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638448909718443246
-    m_Hash: 2183131250
+      ticks: 638451263673657909
+    m_Hash: 634929756
   m_LockFileStatus:
     m_FilePath: D:/Repos/spaver-practic/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638448909718473190
-    m_Hash: 2191513852
+      ticks: 638451263673657909
+    m_Hash: 1923812763
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

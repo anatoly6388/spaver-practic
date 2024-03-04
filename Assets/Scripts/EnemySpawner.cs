@@ -8,7 +8,6 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField][Range(1, 10)] private int _delay;
     [SerializeField] Target[] _target;
 
-    //private Target _target;
     private float _timer;
 
     private void Update()

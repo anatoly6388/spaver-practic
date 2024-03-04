@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Repos\\spaver-practic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|D:\\Repos\\spaver-practic\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|D:\\Repos\\spaver-practic\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|d:\\repos\\spaver-practic\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|D:\\Repos\\spaver-practic\\assets\\scripts\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|d:\\repos\\spaver-practic\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{768FEF0F-80A8-2474-B8DB-1C968368D3EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Target.cs",
               "DocumentMoniker": "D:\\Repos\\spaver-practic\\Assets\\Scripts\\Target.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",
@@ -43,39 +43,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TargetMover.cs",
               "DocumentMoniker": "D:\\Repos\\spaver-practic\\Assets\\Scripts\\TargetMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TargetMover.cs",
               "ToolTip": "D:\\Repos\\spaver-practic\\Assets\\Scripts\\TargetMover.cs",
               "RelativeToolTip": "Assets\\Scripts\\TargetMover.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T15:41:59.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EnemySpawner.cs",
               "DocumentMoniker": "D:\\Repos\\spaver-practic\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
               "ToolTip": "D:\\Repos\\spaver-practic\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAwAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAA+wAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T11:49:18.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyMover.cs",
               "DocumentMoniker": "D:\\Repos\\spaver-practic\\Assets\\Scripts\\EnemyMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMover.cs",
               "ToolTip": "D:\\Repos\\spaver-practic\\Assets\\Scripts\\EnemyMover.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyMover.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T11:48:50.714Z",
               "EditorCaption": ""
