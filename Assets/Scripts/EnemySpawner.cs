@@ -17,7 +17,6 @@ public class EnemySpawner : MonoBehaviour
         if (_timer >= _delay)
         {
             int Index = Random.Range(0, _spawnPoint.Length);
-
             EnemyMover enemyTranslate = Instantiate(_prefab[Index], _spawnPoint[Index].position, Quaternion.identity);
             enemyTranslate.SetDirection(_target[Index]);
             _timer = 0;
